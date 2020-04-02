@@ -17,7 +17,6 @@ var is_drawing = true;
 //Add a listener for loading the window
 window.addEventListener('load', function(e) {
     ctx.fillStyle = color;
-    draw();
 });
 
 //Add a listener for the mouse movement
